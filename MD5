@@ -1,0 +1,13 @@
+6b3f228a991d0b0d101eb7ef17f2c9e5 *DESCRIPTION
+f2b8eabbf3520240e69a58057cffbbce *NAMESPACE
+25edc46124e756c73f9723b8d917bf14 *R/get_xSub.R
+c758aa37e08a6d185ab13aa866f72c9a *R/get_xSub_multi.R
+d25ba9288fe55dced667bcf712633de5 *R/info_xSub.R
+7df868962c8d80f114146d34aee0fab6 *R/sysdata.rda
+f4b2cf224eb4aa53de862100adf65acd *R/xSub_census.R
+d92d08b7482fb8c4bf10a6e4b751305a *README.md
+f86d0dd3a6b04007a08609e1452d6897 *data/xSub_census.RData
+002963eade4faccbbf8ab637be3c923e *man/get_xSub.Rd
+d4b5299216eec035f8ad210376ee48eb *man/get_xSub_multi.Rd
+9e4c4830450da615e0f1292eb1660ee0 *man/info_xSub.Rd
+4cd12b74f2de1626fb242252435dae31 *man/xSub_census.Rd
