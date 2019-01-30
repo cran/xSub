@@ -1,7 +1,7 @@
-5698528e7149ad129bd6b38593e5a3aa *DESCRIPTION
+7bdd61412e050f382d38b34498c39791 *DESCRIPTION
 f2b8eabbf3520240e69a58057cffbbce *NAMESPACE
-8e567ae4ed02ff678ff2bd1d579bbd0b *R/get_xSub.R
-639e5ac28d10629892217b4dcfe7b092 *R/get_xSub_multi.R
+9e2cfc3547073094006595f2ee82d50c *R/get_xSub.R
+35b0d4d895d0cb87b4164e7a9ce0bed9 *R/get_xSub_multi.R
 c677f6c8a845a5885c06051edcd68571 *R/info_xSub.R
 3649cd982dd88c5b88ff7fe3e3f9bded *R/sysdata.rda
 e3a7475bd6a87754531408d260334821 *R/xSub_census_individual_raw.R
@@ -13,8 +13,8 @@ d7d6ce54033b1a82c778b7814da1bbf8 *data/xSub_census_individual_raw.rda
 cea8efbe4e7da1cc5554bf216de7ada3 *data/xSub_census_individual_spatial.rda
 519119753ab642747035e432e39e853f *data/xSub_census_multiple_raw.rda
 c77ffccbdbb9b529af787b0fac6c7f0b *data/xSub_census_multiple_spatial.rda
-7d0980d90c0d4f360e42befca2a9ab22 *man/get_xSub.Rd
-8f840086ba1a31747c2e070a0f2768d1 *man/get_xSub_multi.Rd
+2aa564a8545e89907624b14bde2bc1f0 *man/get_xSub.Rd
+a4884ac05e4827d2efdeb0ba1db55079 *man/get_xSub_multi.Rd
 3a0390f55c19ce8d60127e4092ef84cd *man/info_xSub.Rd
 2f78bf936cebcbfcbebb6014639e8af4 *man/xSub_census_individual_raw.Rd
 83b299f594afe34e5f22b71c2d7d55b1 *man/xSub_census_individual_spatial.Rd
