@@ -4,11 +4,22 @@
 \alias{get_xSub}
 \title{Get xSub file}
 \usage{
-get_xSub(data_source, sources_type = "individual",
-  data_type = "spatial panel", country_iso3 = NULL,
-  country_name = NULL, space_unit, time_unit, geo_window = "1 km",
-  time_window = "1 day", dyad_type = "undirected", out_dir = getwd(),
-  write_file = TRUE, write_format = "csv", verbose = FALSE)
+get_xSub(
+  data_source,
+  sources_type = "individual",
+  data_type = "spatial panel",
+  country_iso3 = NULL,
+  country_name = NULL,
+  space_unit,
+  time_unit,
+  geo_window = "1 km",
+  time_window = "1 day",
+  dyad_type = "undirected",
+  out_dir = getwd(),
+  write_file = TRUE,
+  write_format = "csv",
+  verbose = FALSE
+)
 }
 \arguments{
 \item{data_source}{Name of data source. See \code{info_xSub()} for full list.}
@@ -47,8 +58,10 @@ This function downloads individual files from \code{www.x-sub.org}. Function pro
 info_xSub(data_source="ACLED")
 
 # Download ACLED data for Egypt, at country-year level
+\dontrun{
 my_file <- get_xSub(data_source = "ACLED",country_iso3 = "EGY",
            space_unit = "adm0",time_unit = "year")
+}
 
 # Download ACLED data for Egypt, at district-month level
 \dontrun{
@@ -71,7 +84,7 @@ my_file <- get_xSub(data_source = "ACLED",country_iso3 = "EGY",
 \dontrun{
 # Download multiple source data for Egypt, at province-month level
 my_file <- get_xSub(sources_type = "multiple",country_iso3 = "EGY",
-           space_unit = "adm1",time_unit = "month", geo_window = "1 km", 
+           space_unit = "adm1",time_unit = "month", geo_window = "1 km",
            time_window = "1 day", dyad_type = "undirected")
 }
 }
